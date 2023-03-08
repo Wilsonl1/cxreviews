@@ -44,7 +44,7 @@ for (let i = 0; i < reviewers.length; i++) {
     reviewCode += "<caption>" + reviewTitles + "</caption>";
     reviewCode += "<tr><th>By</th><td>" + reviewers[i] + "</td></tr>";
     reviewCode += "<tr><th>reviewDate</th><td>" + reviewDates[i] + "</td></tr>";
-    reviewCode += "<tr><th>Rating</th></tr>" + starImages(stars[i]) + "</td></tr>";
+    reviewCode += "<tr><th>Rating</th><td>" + starImages(stars[i]) + "</td></tr>";
     reviewCode += "<td colspan='2'>" + reviews[i] + "</td></tr>";
     reviewCode += "</table>"
 
